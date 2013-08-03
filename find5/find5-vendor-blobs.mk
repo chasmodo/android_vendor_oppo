@@ -44,12 +44,14 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/oppo/find5/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/oppo/find5/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+	vendor/oppo/find5/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
 	vendor/oppo/find5/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_hfr_120fps.so:system/lib/libchromatix_imx135_hfr_120fps.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_hfr_90fps.so:system/lib/libchromatix_imx135_hfr_90fps.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_video_hd.so:system/lib/libchromatix_imx135_video_hd.so \
+	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_video_hdr.so:system/lib/libchromatix_imx135_video_hdr.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_imx135_zsl.so:system/lib/libchromatix_imx135_zsl.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_s5k6a3yx_default_video.so:system/lib/libchromatix_s5k6a3yx_default_video.so \
 	vendor/oppo/find5/proprietary/lib/libchromatix_s5k6a3yx_preview.so:system/lib/libchromatix_s5k6a3yx_preview.so \
@@ -60,22 +62,31 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find5/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/oppo/find5/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/oppo/find5/proprietary/lib/libidl.so:system/lib/libidl.so \
+	vendor/oppo/find5/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
 	vendor/oppo/find5/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
 	vendor/oppo/find5/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
 	vendor/oppo/find5/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
 	vendor/oppo/find5/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/oppo/find5/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 	vendor/oppo/find5/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+	vendor/oppo/find5/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+	vendor/oppo/find5/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+	vendor/oppo/find5/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+	vendor/oppo/find5/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+	vendor/oppo/find5/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+	vendor/oppo/find5/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
 	vendor/oppo/find5/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
 	vendor/oppo/find5/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/oppo/find5/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/oppo/find5/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/oppo/find5/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/oppo/find5/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/oppo/find5/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	vendor/oppo/find5/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/oppo/find5/proprietary/lib/libqmi.so:system/lib/libqmi.so \
