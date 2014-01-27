@@ -75,6 +75,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/oppo/apq8064-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/oppo/apq8064-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/oppo/apq8064-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/oppo/apq8064-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/oppo/apq8064-common/proprietary/lib/libidl.so:system/lib/libidl.so \
