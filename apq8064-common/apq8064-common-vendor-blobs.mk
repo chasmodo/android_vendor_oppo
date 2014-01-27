@@ -70,7 +70,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/oppo/apq8064-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/oppo/apq8064-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/oppo/apq8064-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/oppo/apq8064-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/oppo/apq8064-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/oppo/apq8064-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/oppo/apq8064-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -87,6 +90,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/oppo/apq8064-common/proprietary/app/OppoNvProcess.apk:system/app/OppoNvProcess.apk \
+    vendor/oppo/apq8064-common/proprietary/app/OppoRadioShutdown.apk:system/app/OppoRadioShutdown.apk \
+    vendor/oppo/apq8064-common/proprietary/app/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk \
     vendor/oppo/apq8064-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/oppo/apq8064-common/proprietary/bin/efsks:system/bin/efsks \
     vendor/oppo/apq8064-common/proprietary/bin/ks:system/bin/ks \
@@ -95,6 +101,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/bin/qcks:system/bin/qcks \
     vendor/oppo/apq8064-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/apq8064-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/oppo/apq8064-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/oppo/apq8064-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/oppo/apq8064-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/oppo/apq8064-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/oppo/apq8064-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/oppo/apq8064-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/oppo/apq8064-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
@@ -106,6 +116,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/bin/oemwvtest:system/bin/oemwvtest \
     vendor/oppo/apq8064-common/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
     vendor/oppo/apq8064-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/oppo/apq8064-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/oppo/apq8064-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/oppo/apq8064-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/oppo/apq8064-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/oppo/apq8064-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
