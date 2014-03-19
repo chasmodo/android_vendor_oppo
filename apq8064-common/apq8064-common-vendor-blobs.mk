@@ -95,9 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/oppo/apq8064-common/proprietary/app/OppoNvProcess.apk:system/app/OppoNvProcess.apk \
-    vendor/oppo/apq8064-common/proprietary/app/OppoRadioShutdown.apk:system/app/OppoRadioShutdown.apk \
-    vendor/oppo/apq8064-common/proprietary/app/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk \
     vendor/oppo/apq8064-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/oppo/apq8064-common/proprietary/bin/efsks:system/bin/efsks \
     vendor/oppo/apq8064-common/proprietary/bin/ks:system/bin/ks \
