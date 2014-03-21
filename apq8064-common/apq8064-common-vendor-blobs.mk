@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/oppo/apq8064-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/oppo/apq8064-common/proprietary/bin/thermald:system/bin/thermald \
-    vendor/oppo/apq8064-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
+    vendor/oppo/apq8064-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/apq8064-common/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/oppo/apq8064-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/oppo/apq8064-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
