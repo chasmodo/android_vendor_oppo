@@ -20,9 +20,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/oppo/apq8064-common/overlay
 PRODUCT_PACKAGES += \
     libtime_genoff \
     com.qualcomm.location \
-    PPPreference \
     OppoNvProcess \
     OppoRadioShutdown \
-    qcrilmsgtunnel
+    PPPreference \
+    qcrilmsgtunnel \
+    QuickBoot
 
 $(call inherit-product, vendor/oppo/apq8064-common/apq8064-common-vendor-blobs.mk)
