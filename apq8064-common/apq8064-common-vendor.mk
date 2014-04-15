@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     OppoNvProcess \
     OppoRadioShutdown \
     PPPreference \
-    qcrilmsgtunnel \
-    QuickBoot
+    qcrilmsgtunnel
 
 $(call inherit-product, vendor/oppo/apq8064-common/apq8064-common-vendor-blobs.mk)
