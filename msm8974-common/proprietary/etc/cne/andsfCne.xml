@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2012-2013 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
+<!--Copyright (c) 2012-2014 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
 <AndsfPolicy>
 	<Man>Qualcomm</Man>
 	<Mod>FFA</Mod>
 	<Andsf>
-	    <Version>4.4</Version>
+	    <Version>4.5</Version>
 		<Name>Test 1</Name>
 		<!-- ISRP>
 			<ForFlowBased>
@@ -206,11 +206,11 @@
                             <!-- Disabling Degraded Backhaul Detector module -->
                             <DBD_Disabled>false</DBD_Disabled>
                             <!-- Threshold for DNS time beyond which TQE will declare FAIL -->
-                            <DNSThreshold>20000</DNSThreshold>
+                            <DNSThreshold units="msecs">20000</DNSThreshold>
                             <!-- Threshold on downlink gap indicator metric -->
-                            <DGIMThresh>250</DGIMThresh>
+                            <DGIMThresh units="msecs">250</DGIMThresh>
                             <!-- Time window for TQE history -->
-                            <TQETimeWindow>30</TQETimeWindow>
+                            <TQETimeWindow units="secs">30</TQETimeWindow>
                             <!-- Minimum fraction of sockets reporting BAD (among valid ones) to declare TQE FAIL -->
                             <RatioThresh>0.5</RatioThresh>
                         </TQE_Thresholds>
@@ -219,14 +219,14 @@
                         <!--
                         <TQE_Thresholds Id ="1">
                             <apIds Type="SSID">
-                                <apId>kddi1</apId>
-                                <apId>kddi2</apId>
+                                <apId>operatorSsid1</apId>
+                                <apId>operatorSsid2</apId>
                             </apIds>
                             <BBD_Disabled>false</BBD_Disabled>
                             <DBD_Disabled>false</DBD_Disabled>
-                            <DNSThreshold>20000</DNSThreshold>
-                            <DGIMThresh>250</DGIMThresh>
-                            <TQETimeWindow>30</TQETimeWindow>
+                            <DNSThreshold units="msecs">20000</DNSThreshold>
+                            <DGIMThresh units="msecs">250</DGIMThresh>
+                            <TQETimeWindow units="secs">30</TQETimeWindow>
                             <RatioThresh>0.5</RatioThresh>
                         -->
                     </TQE>
@@ -242,7 +242,7 @@
 					<!-- a candidate for interface selection -->
 					<RSSIDropThreshold units="dbm">-91</RSSIDropThreshold>
 					<!-- RSSI threshold from which to select linear model to compute CQE metric -->
-					<RSSIModelThreshold units="dbm">-82</RSSIModelThreshold>
+					<RSSIModelThreshold units="dbm">-72</RSSIModelThreshold>
 					<!-- Interval over whcih RSSI values are averaged -->
 					<RSSIAveragingInterval units="secs">5</RSSIAveragingInterval>
 					<!-- RSSI threshold below which MAC hysteresis timer is not started -->
@@ -251,38 +251,40 @@
 					<!-- Setting CQETimer to zero disables the CQE -->
 					<CQETimer units="secs">2</CQETimer>
 					<!-- Time for which CQE is not reevaluted after it was declared bad due to MAC stats -->
-					<MACHysteresisTimer units="secs">20</MACHysteresisTimer>
+					<MACHysteresisTimer units="secs">120</MACHysteresisTimer>
 					<!-- Alpha to compute RSSI averaging based on IIR filtering mechanism -->
-					<MACStatsAveragingAlpha>0.3</MACStatsAveragingAlpha>
+					<MACStatsAveragingAlpha>0.5</MACStatsAveragingAlpha>
 					<!-- The threshold indicating the number of frames below which no valid CQE estimation can't be done -->
-					<FrameCntThreshold units="frames">2</FrameCntThreshold>
+					<FrameCntThreshold units="frames">3</FrameCntThreshold>
+					<!-- The threshold indicating the number of last samples below which valid CQE estimation can't be done -->
+					<ColdStartThreshold units="frames">2</ColdStartThreshold>
 					<!-- The threshold that ultimately decides the wlan is good or bad based on the combined MAC parameters -->
 					<!-- such as retry, multi-retry, fail and  ack fail metric -->
 					<!-- when average RSSI is greater than RSSIModelThreshold -->
-                    <MACMibThreshold2a>0.35</MACMibThreshold2a>
+                    <MACMibThreshold2a>0.25</MACMibThreshold2a>
 					<!-- The weightage that given to retry metric in computation of CQE -->
 					<!-- when average RSSI is greater than RSSIModelThreshold -->
-					<RetryMetricWeight2a>0.2061</RetryMetricWeight2a>
+					<RetryMetricWeight2a>0.2347</RetryMetricWeight2a>
 					<!-- The weightage that given to multi-retry metric in computation of CQE -->
 					<!-- when average RSSI is greater than RSSIModelThreshold -->
-					<MultiRetryMetricWeight2a>0.1984</MultiRetryMetricWeight2a>
+					<MultiRetryMetricWeight2a>0.0489</MultiRetryMetricWeight2a>
 					<!-- The threshold that ultimately decides the wlan is good or bad based on the combined MAC parameters -->
 					<!-- such as retry, multi-retry, fail and  ack fail metric -->
 					<!-- when average RSSI is less than or equal to RSSIModelThreshold -->
-					<MACMibThreshold2b>0.4</MACMibThreshold2b>
+					<MACMibThreshold2b>0.22</MACMibThreshold2b>
 					<!-- The weightage that given to retry metric in computation of CQE -->
 					<!-- when average RSSI is less than or equal to RSSIModelThreshold -->
-					<RetryMetricWeight2b>0.4318</RetryMetricWeight2b>
+					<RetryMetricWeight2b>0.2281</RetryMetricWeight2b>
 					<!-- The weightage that given to multi-retry metric in computation of CQE -->
 					<!-- when average RSSI is less than or equal to RSSIModelThreshold -->
-					<MultiRetryMetricWeight2b>0.4156</MultiRetryMetricWeight2b>
+					<MultiRetryMetricWeight2b>0.1314</MultiRetryMetricWeight2b>
 				</CQE_Thresholds>
 				<!-- The next element is for reference only to show how to set up CQE thresholds for a list of specific apids -->
 				<!--
 				<CQE_Thresholds Id ="1">
 				    <apIds Type="SSID">
-					   <apId>kddi1</apId>
-					   <apId>kddi2</apId>
+					   <apId>operatorSsid1</apId>
+					   <apId>operatorSsid2</apId>
 				    </apIds>
 					<RSSIAddThreshold units="dbm">-82</RSSIAddThreshold>
 					<RSSIDropThreshold units="dbm">-90</RSSIDropThreshold>

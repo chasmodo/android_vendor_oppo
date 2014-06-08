@@ -15,8 +15,8 @@
       <HysteresisTimer units="s">10</HysteresisTimer>
     </IFSelection>
     <InterfaceManager>
-      <T_BLACKLIST_BQE units="secs">60</T_BLACKLIST_BQE>
-      <T_BLACKLIST_ICD units="secs">60</T_BLACKLIST_ICD>
+      <T_BLACKLIST_BQE units="secs">900</T_BLACKLIST_BQE>
+      <T_BLACKLIST_ICD units="secs">900</T_BLACKLIST_ICD>
       <BQE>
         <T_passiveBQE units="s">5</T_passiveBQE>
       </BQE>
@@ -63,6 +63,7 @@
       <TQE_COUNT_THRESH>5</TQE_COUNT_THRESH>
       <TQE_OVERALL_COUNT_THRESH>10</TQE_OVERALL_COUNT_THRESH>
       <alphaTQE>0.7</alphaTQE>
+      <T_BLACKLIST_TQE units="secs">3600</T_BLACKLIST_TQE>
     </TQE>
   </ModulesConfiguration>
 </SwimConfig>
