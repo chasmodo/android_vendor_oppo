@@ -30,4 +30,10 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener
 
+PRODUCT_PACKAGES += \
+    libwvdrm_L3 \
+    libwvm \
+    libWVStreamControlAPI_L3 \
+    libwvdrmengine
+
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor-blobs.mk)
