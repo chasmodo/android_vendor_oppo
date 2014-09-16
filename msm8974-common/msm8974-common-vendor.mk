@@ -19,7 +19,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/oppo/msm8974-common/overlay
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    PPPreference \
     QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener

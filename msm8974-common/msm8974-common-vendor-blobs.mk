@@ -44,14 +44,17 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oppo/msm8974-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/oppo/msm8974-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/msm8974-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/oppo/msm8974-common/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/oppo/msm8974-common/proprietary/bin/quipc_main:system/bin/quipc_main \
