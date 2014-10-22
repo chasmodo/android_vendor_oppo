@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/find7/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/find7/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/oppo/find7/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/oppo/find7/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/oppo/find7/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -60,16 +61,42 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_default_video_find7s.so:system/vendor/lib/libchromatix_imx214_default_video_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_hfr_120_find7s.so:system/vendor/lib/libchromatix_imx214_hfr_120_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_hfr_60_find7s.so:system/vendor/lib/libchromatix_imx214_hfr_60_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_liveshot_find7s.so:system/vendor/lib/libchromatix_imx214_liveshot_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_preview_binning.so:system/vendor/lib/libchromatix_imx214_preview_binning.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_preview_binning_find7s.so:system/vendor/lib/libchromatix_imx214_preview_binning_find7s.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_preview_find7s.so:system/vendor/lib/libchromatix_imx214_preview_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_snapshot_find7s.so:system/vendor/lib/libchromatix_imx214_snapshot_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr_find7s.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_video_binning.so:system/vendor/lib/libchromatix_imx214_video_binning.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_video_binning_find7s.so:system/vendor/lib/libchromatix_imx214_video_binning_find7s.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_video_cmcc.so:system/vendor/lib/libchromatix_imx214_video_cmcc.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_imx214_video_hdr_find7s.so:system/vendor/lib/libchromatix_imx214_video_hdr_find7s.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_common.so:system/vendor/lib/libchromatix_ov16825_common.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_default_video.so:system/vendor/lib/libchromatix_ov16825_default_video.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_hfr_120.so:system/vendor/lib/libchromatix_ov16825_hfr_120.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_hfr_60.so:system/vendor/lib/libchromatix_ov16825_hfr_60.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_liveshot.so:system/vendor/lib/libchromatix_ov16825_liveshot.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_preview.so:system/vendor/lib/libchromatix_ov16825_preview.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_snapshot.so:system/vendor/lib/libchromatix_ov16825_snapshot.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_common.so:system/vendor/lib/libchromatix_ov5648_common.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_default_video.so:system/vendor/lib/libchromatix_ov5648_default_video.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_default_video_find7s.so:system/vendor/lib/libchromatix_ov5648_default_video_find7s.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_preview.so:system/vendor/lib/libchromatix_ov5648_preview.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_preview_fb.so:system/vendor/lib/libchromatix_ov5648_preview_fb.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_preview_find7s.so:system/vendor/lib/libchromatix_ov5648_preview_find7s.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_video_cmcc.so:system/vendor/lib/libchromatix_ov5648_video_cmcc.so \
     vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_fb.so:system/vendor/lib/libchromatix_ov5648_zsl_fb.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_find7s.so:system/vendor/lib/libchromatix_ov5648_zsl_find7s.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so \
     vendor/oppo/find7/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
