@@ -66,6 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -76,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -141,10 +145,14 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/oppo/msm8974-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/oppo/msm8974-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oppo/msm8974-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
