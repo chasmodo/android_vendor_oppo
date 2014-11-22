@@ -130,6 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/oppo/msm8974-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/oppo/msm8974-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/oppo/msm8974-common/proprietary/bin/radish:system/bin/radish \
