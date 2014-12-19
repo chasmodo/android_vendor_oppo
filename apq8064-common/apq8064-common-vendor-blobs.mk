@@ -124,9 +124,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/apq8064-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/oppo/apq8064-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/oppo/apq8064-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/oppo/apq8064-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/oppo/apq8064-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/oppo/apq8064-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/oppo/apq8064-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/apq8064-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
