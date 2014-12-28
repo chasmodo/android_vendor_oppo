@@ -47,6 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oppo/msm8974-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/oppo/msm8974-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/oppo/msm8974-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/oppo/msm8974-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
@@ -71,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/oppo/msm8974-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
