@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/oppo/msm8974-common/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/oppo/msm8974-common/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/oppo/msm8974-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/oppo/msm8974-common/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/oppo/msm8974-common/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/oppo/msm8974-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
